@@ -1,0 +1,80 @@
+*{
+    box‐sizing: border‐box;
+}
+html {
+    width: 960px;
+    height: 100vh;
+    background-color: gray;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    background‐color:red;
+    padding: 10px;
+    position: fixed;
+    box‐sizing: border‐box;
+    display: grid;
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+
+}
+
+header section#logo {
+    
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+header section#logo img {
+    height: 100%;
+}
+
+nav {
+    padding: 20px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    float: right;
+    box‐sizing: border‐box;
+    background-color: yellow;
+}
+
+nav ul {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify‐content: space‐between;
+}
+
+nav ul li {
+    display: inline-block;
+    padding‐right: 40px;
+    margin: 10px;
+    font‐size: 2em;
+    // font‐family: 'Raleway', sans‐serif;
+}
+
+nav ul li a {
+    text‐decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: orange;
+    border‐bottom: 4px solid black;
+}
+
+section#searchbar {
+    width: 30%;
+    height: 100%;
+    box‐sizing: border‐box;
+    float: left;
+    padding‐top: 20px;
+}
+
+section#loginbar {
+    background-color: black;
+    width: 10
+}
