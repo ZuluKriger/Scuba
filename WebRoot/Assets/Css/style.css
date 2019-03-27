@@ -1,68 +1,33 @@
-@charset "UTF-8";
 * {
-  boxÔÇÉsizing: borderÔÇÉbox; }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-html {
-  width: 960px;
-  height: 100vh;
-  background-color: gray; }
-
-header {
+nav {
   width: 100%;
-  height: 10vh;
-  backgroundÔÇÉcolor: red;
-  padding: 10px;
-  position: fixed;
-  boxÔÇÉsizing: borderÔÇÉbox;
+  height: 7vh;
+  background-color: #814242;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr; }
+  grid-template-columns: 15vw 25vw 25vw 25vw;
+  grid-template-rows: 7vh; }
 
-header section#logo {
+#logo {
+  width: 13vw;
   grid-column: 1 / 2;
   grid-row: 1 / 2; }
 
-header section#logo img {
-  height: 100%; }
+#logo > img {
+  width: 100%; }
 
-nav {
-  padding: 20px;
-  margin-left: 10px;
-  width: 100%;
-  height: 100%;
-  float: right;
-  boxÔÇÉsizing: borderÔÇÉbox;
-  background-color: yellow; }
-
-nav ul {
-  width: 100%;
-  margin: 10px;
+ul {
   display: flex;
-  justifyÔÇÉcontent: spaceÔÇÉbetween; }
+  list-style-type: none;
+  grid-column: 2 / 3; }
 
-nav ul li {
-  display: inline-block;
-  paddingÔÇÉright: 40px;
-  margin: 10px;
-  fontÔÇÉsize: 2em; }
-
-nav ul li a {
-  textÔÇÉdecoration: none;
-  color: black; }
-
-nav ul li a:hover {
-  color: orange;
-  borderÔÇÉbottom: 4px solid black; }
-
-section#searchbar {
-  width: 30%;
-  height: 100%;
-  boxÔÇÉsizing: borderÔÇÉbox;
-  float: left;
-  paddingÔÇÉtop: 20px; }
-
-section#loginbar {
-  background-color: black;
-  width: 10; }
+#landingpage {
+  height: 80vh;
+  width: 100%;
+  background-image: url(scuba2.jpg);
+  border: solid 5px red; }
 
 /*# sourceMappingURL=style.css.map */
