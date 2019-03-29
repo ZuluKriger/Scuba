@@ -3,7 +3,7 @@ import './style.scss';
 import scubalogo from './Gfx/ScubaLiving_logo_small.svg';
 
 
-class scubaHeader extends Component{
+class ScubaHeader extends Component{
     render(){
         return (
             <header>
@@ -47,4 +47,4 @@ class scubaHeader extends Component{
     }
 }
 
-export default scubaHeader
+export default ScubaHeader

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import './scubaHeader';
-import scubaHeader from './scubaHeader';
+import ScubaHeader from './scubaHeader';
 
 class App extends Component {
   render() {
     return (
-      <scubaHeader />
+      <ScubaHeader />
     );
   }
 }
